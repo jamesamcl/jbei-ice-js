@@ -1,0 +1,20 @@
+{
+  "name": "jbei-ice-js",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/udp/jbei-ice-js",
+  "author": "James McLaughlin <james@mclgh.net>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "@types/url-join": "^4.0.0",
+    "cross-fetch": "^3.0.4",
+    "sbolgraph": "^0.14.0",
+    "typescript": "^3.5.3",
+    "url-join": "^4.0.1",
+    "xtend": "^4.0.2"
+  },
+  "scripts": {
+    "prepare": "tsc",
+    "prepublishOnly": "tsc"
+  }
+}

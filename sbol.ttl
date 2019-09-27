@@ -1,0 +1,33 @@
+<http://acs-registry.jbei.org/entry/ACS_000139/1> a sbol:ComponentDefinition ;
+    dcterms:description "Promoter1 with BCD21-gfp" ;
+    dcterms:title "pProm1_BCD21_Yeast" ;
+    sbol:displayId "ACS_000139" ;
+    sbol:persistentIdentity <http://acs-registry.jbei.org/entry/ACS_000139> ;
+    sbol:sequence <http://acs-registry.jbei.org/entry/sequence_bff82c7554b50ed1450c11c178309dcd846d9110/1> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    ice:bioSafetyLevel "1" ;
+    ice:creationTime "2014-11-17 22:45:26.696" ;
+    ice:creator "Chao Shih" ;
+    ice:creatorEmail "ccshih@lbl.gov" ;
+    ice:id "139.0" ;
+    ice:longDescriptionType "text" ;
+    ice:modificationTime "2016-05-12 11:01:36.291" ;
+    ice:owner "Chao Shih" ;
+    ice:ownerEmail "ccshih@lbl.gov" ;
+    ice:principalInvestigator "Nathan Hillson" ;
+    ice:recordId "f34a697b-724a-44e6-9112-d1c580f31dcd" ;
+    ice:recordType "plasmid" ;
+    ice:references "Shih, S. C., Goyal, G., Kim, P. W., ..." ;
+    ice:selectionMarker "AMP and TRP" ;
+    ice:shortDescription "Promoter1 with BCD21-gfp" ;
+    ice:status "Complete" ;
+    ice:versionId "f34a697b-724a-44e6-9112-d1c580f31dcd" ;
+    ice:visibility "9" .
+
+<http://acs-registry.jbei.org/entry/sequence_bff82c7554b50ed1450c11c178309dcd846d9110/1> a sbol:Sequence ;
+    sbol:displayId "sequence_bff82c7554b50ed1450c11c178309dcd846d9110" ;
+    sbol:elements "tgtctgt..." ;
+    sbol:encoding <http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html> ;
+    sbol:persistentIdentity <http://acs-registry.jbei.org/entry/sequence_bff82c7554b50ed1450c11c178309dcd846d9110> ;
+    sbol:version "1" .
